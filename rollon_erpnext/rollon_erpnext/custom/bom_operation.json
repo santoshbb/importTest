@@ -1,0 +1,31 @@
+{
+ "custom_fields": [], 
+ "custom_perms": [], 
+ "doctype": "BOM Operation", 
+ "property_setters": [
+  {
+   "_assign": null, 
+   "_comments": null, 
+   "_liked_by": null, 
+   "_user_tags": null, 
+   "creation": "2018-04-24 16:04:48.175047", 
+   "default_value": null, 
+   "doc_type": "BOM Operation", 
+   "docstatus": 0, 
+   "doctype_or_field": "DocType", 
+   "field_name": null, 
+   "idx": 0, 
+   "modified": "2017-12-01 13:04:07.199081", 
+   "modified_by": "Administrator", 
+   "name": "BOM Operation-sort_order", 
+   "owner": "Administrator", 
+   "parent": null, 
+   "parentfield": null, 
+   "parenttype": null, 
+   "property": "sort_order", 
+   "property_type": "Data", 
+   "value": "ASC"
+  }
+ ], 
+ "sync_on_migrate": 1
+}
