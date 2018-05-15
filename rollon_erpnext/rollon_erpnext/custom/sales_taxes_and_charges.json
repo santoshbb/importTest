@@ -1,0 +1,31 @@
+{
+ "custom_fields": [], 
+ "custom_perms": [], 
+ "doctype": "Sales Taxes and Charges", 
+ "property_setters": [
+  {
+   "_assign": null, 
+   "_comments": null, 
+   "_liked_by": null, 
+   "_user_tags": null, 
+   "creation": "2018-05-14 14:52:16.160994", 
+   "default_value": null, 
+   "doc_type": "Sales Taxes and Charges", 
+   "docstatus": 0, 
+   "doctype_or_field": "DocType", 
+   "field_name": null, 
+   "idx": 0, 
+   "modified": "2017-12-13 21:01:27.892504", 
+   "modified_by": "Administrator", 
+   "name": "Sales Taxes and Charges-sort_order", 
+   "owner": "Administrator", 
+   "parent": null, 
+   "parentfield": null, 
+   "parenttype": null, 
+   "property": "sort_order", 
+   "property_type": "Data", 
+   "value": "DESC"
+  }
+ ], 
+ "sync_on_migrate": 1
+}
