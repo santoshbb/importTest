@@ -1,0 +1,30 @@
+{
+ "add_total_row": 1, 
+ "apply_user_permissions": 1, 
+ "creation": "2018-05-29 18:02:55.550256", 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "modified": "2018-05-29 20:57:09.323233", 
+ "modified_by": "Administrator", 
+ "module": "Rollon ERPNext", 
+ "name": "CR BOM Costing", 
+ "owner": "Administrator", 
+ "query": "SELECT\n`tabBOM`.name as \"BOM:Link/BOM:180\",\n`tabItem`.process_no as \"PNo:Data:40\",\n`tabBOM`.item_name as \"Item Name:Link/Item:230\",\n`tabBOM Item`.item_name as \"Input Item:Link/Item:160\",\n`tabBOM Item`.qty as \"Input qty:Float:70\",\n`tabBOM`.raw_material_cost as \"Rate:Float:80\",\n`tabBOM`.operating_cost as \"Opera Cost:Float:80\",\n`tabBOM`.total_cost as \"Total Cost:Float:80\"\n\nFROM\n`tabBOM`,\n`tabBOM Item`,\n`tabItem`\n\nWHERE\n`tabBOM`.name=`tabBOM Item`.parent &&\n`tabItem`.item_name=`tabBOM`.item_name &&\n`tabItem`.rollon_code = %(rollon_code)s\nORDER BY `tabItem`.process_no DESC,`tabBOM`.name DESC", 
+ "ref_doctype": "BOM", 
+ "report_name": "CR BOM Costing", 
+ "report_type": "Query Report", 
+ "roles": [
+  {
+   "role": "Manufacturing User"
+  }, 
+  {
+   "role": "Manufacturing Manager"
+  }, 
+  {
+   "role": "Item Manager"
+  }
+ ]
+}
