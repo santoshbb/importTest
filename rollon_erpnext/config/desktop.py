@@ -6,7 +6,7 @@ def get_data():
 	return [
 		{
 			"module_name": "Rollon ERPNext",
-			"color": "grey",
+			"color": "green",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
 			"label": _("Rollon ERPNext")
