@@ -12,6 +12,21 @@ frappe.query_reports["CR Stock Entry"] = {
 "label": __("To Date"),
 "fieldtype": "Date",
 "default": get_today()
+},
+
+{
+"fieldname":"cycle",
+"label":__("Cycle"),
+"fieldtype":"Link",
+"default":"CY181900001"
+},
+
+{
+"fieldname":"production_type",
+"label":__("Production Type"),
+"fieldtype":"Select",
+"options":["Regular","D1","D2","D3","Stripping"],
+"default":"Regular"
 }
 ]
 }
