@@ -1,4 +1,4 @@
-frappe.query_reports["CR Stock Entry"] = {
+frappe.query_reports["Production Cost Estimation"] = {
 "filters": [
 {
 "fieldname":"from_date",
