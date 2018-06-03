@@ -26,7 +26,7 @@ frappe.query_reports["CR Stock Entry"] = {
 "fieldname":"production_type",
 "label":__("Production Type"),
 "fieldtype":"Select",
-"options":["Regular","D1","D2","D3","Stripping"],
+"options":["Regular","D1","D2","D3","Stripping","D4"],
 "default":"Regular"
 }
 ]
