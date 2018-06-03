@@ -4,7 +4,7 @@ frappe.query_reports["CR Stock Entry"] = {
 "fieldname":"from_date",
 "label": __("FROM Date"),
 "fieldtype": "Date",
-"default": get_today()
+"default": frappe.datetime.month_start(date)
 },
 
 {
@@ -18,6 +18,7 @@ frappe.query_reports["CR Stock Entry"] = {
 "fieldname":"cycle",
 "label":__("Cycle"),
 "fieldtype":"Link",
+"options":"Cycle",
 "default":"CY181900001"
 },
 
