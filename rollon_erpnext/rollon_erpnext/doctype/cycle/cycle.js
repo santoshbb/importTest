@@ -4,5 +4,17 @@
 frappe.ui.form.on('Cycle', {
 	refresh: function(frm) {
 
+
+    frm.add_custom_button(__('Stop'), function() { 
+        // click
+      }, __('Status'));
+
+
+
+
+
+
+
+
 	}
 });
