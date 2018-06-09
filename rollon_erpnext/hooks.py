@@ -122,9 +122,12 @@ app_license = "MIT"
 # 	"frappe.desk.doctype.event.event.get_events": "rollon_erpnext.event.get_events"
 # }
 
-fixtures = [
-	"Property Setter",
-	"Custom Field",
-        "Print Format",
-        "Custom Script"
-]
+    fixtures = [{
+	"doctype": "DocType",
+            "filters": { "custom" : ["=", "1"] }
+           }, 
+    	"Custom Field",
+    	"Custom Script",
+    	"Property Setter",
+            "Print Format"
+       ]
