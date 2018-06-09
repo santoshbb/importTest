@@ -125,5 +125,6 @@ app_license = "MIT"
 fixtures = [
 	property_setter,
 	custom_field,
-        ["Print Format"]
+        Print Format,
+        Custom Script
 ]
