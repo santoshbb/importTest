@@ -26,7 +26,7 @@ frappe.query_reports["CR Production Cost Estimation"] = {
 "fieldname":"production_type",
 "label":__("Production Type"),
 "fieldtype":"Select",
-"options":["Regular","D1","D2","D3","Stripping","D4"],
+"options":["Regular","D1","D2","D3","D4","S","RS"],
 "default":"Regular"
 }
 ]
