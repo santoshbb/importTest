@@ -10,7 +10,7 @@ app_publisher = "MN Technique"
 app_description = "ERPNext customisation for Rollon Hydraulics"
 app_icon = "octicon octicon-file-directory"
 app_color = "red"
-app_email = "santosh@rhpl.com"
+app_email = "santosh.baburao@gmail.com"
 app_license = "MIT"
 
 # Includes in <head>
@@ -125,4 +125,5 @@ app_license = "MIT"
 fixtures = [
 	property_setter,
 	custom_field
+        ["Print Format"]
 ]
