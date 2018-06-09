@@ -123,8 +123,8 @@ app_license = "MIT"
 # }
 
 fixtures = [
-	property_setter,
-	custom_field,
-        Print Format,
-        Custom Script
+	"Property Setter",
+	"Custom Field",
+        "Print Format",
+        "Custom Script"
 ]
