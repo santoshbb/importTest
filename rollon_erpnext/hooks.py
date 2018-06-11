@@ -121,13 +121,9 @@ app_license = "MIT"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "rollon_erpnext.event.get_events"
 # }
-
-    fixtures = [{
-	"doctype": "DocType",
-            "filters": { "custom" : ["=", "1"] }
-           }, 
+fixtures = [ 
     	"Custom Field",
     	"Custom Script",
     	"Property Setter",
-            "Print Format"
-       ]
+        "Print Format"
+]
