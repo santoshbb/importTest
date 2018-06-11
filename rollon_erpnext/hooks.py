@@ -126,5 +126,5 @@ app_license = "MIT"
     	"Custom Field",
     	"Custom Script",
     	"Property Setter",
-            "Print Format"
+        "Print Format"
        ]
