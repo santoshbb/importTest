@@ -8,7 +8,7 @@
    "_user_tags": null, 
    "amend": 0, 
    "apply_user_permissions": 0, 
-   "cancel": 1, 
+   "cancel": 0, 
    "create": 1, 
    "creation": "2013-06-18 12:39:59", 
    "delete": 1, 
@@ -67,7 +67,7 @@
    "role": "Sales User", 
    "set_user_permissions": 0, 
    "share": 0, 
-   "submit": 0, 
+   "submit": 1, 
    "user_permission_doctypes": null, 
    "write": 1
   }, 
