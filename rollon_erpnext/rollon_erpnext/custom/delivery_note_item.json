@@ -153,14 +153,14 @@
    "_comments": null, 
    "_liked_by": null, 
    "_user_tags": null, 
-   "creation": "2018-05-30 00:29:57.286509", 
+   "creation": "2018-06-14 10:10:32.802980", 
    "default_value": null, 
    "doc_type": "Delivery Note Item", 
    "docstatus": 0, 
    "doctype_or_field": "DocField", 
    "field_name": "barcode", 
    "idx": 0, 
-   "modified": "2018-03-20 11:01:31.202373", 
+   "modified": "2018-06-14 10:10:32.802980", 
    "modified_by": "Administrator", 
    "name": "Delivery Note Item-barcode-hidden", 
    "owner": "Administrator", 
@@ -169,7 +169,7 @@
    "parenttype": null, 
    "property": "hidden", 
    "property_type": "Check", 
-   "value": "0"
+   "value": "1"
   }, 
   {
    "_assign": null, 
