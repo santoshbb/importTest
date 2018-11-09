@@ -30,6 +30,14 @@ frappe.query_reports["CR RM Consumption (Inhouse)"] = {
 "fieldtype":"Read Only",
 "options":["Raw Material", "SFG"],
 "default":"Raw Material"
+},
+
+{
+"fieldname":"consumption_type",
+"label":("Consumption Type"),
+"fieldtype":"Select",
+"options":["Under Developement","Inhouse", "Supplier"],
+"default":"Under Developement"
 }
 
 ]

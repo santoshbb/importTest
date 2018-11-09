@@ -19,7 +19,7 @@ frappe.query_reports["CR RM Consumption (Supplier)"] = {
 {
 "fieldname" : "item_group",
 "label":("Item Group"),
-"fieldtype":"Select",
+"fieldtype":"Read Only",
 "options" : ["", "Raw Material"],
 "default":"Raw Material"
 }
