@@ -1,4 +1,4 @@
-frappe.query_reports["CR Production Cost Estimation"] = {
+frappe.query_reports["CR Production Costing"] = {
 "filters": [
 {
 "fieldname":"from_date",

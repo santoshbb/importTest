@@ -1,0 +1,49 @@
+{
+ "add_total_row": 1, 
+ "apply_user_permissions": 1, 
+ "creation": "2018-11-09 15:34:55.046517", 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "letter_head": "ROLLON Letter Head", 
+ "modified": "2018-11-09 16:19:23.264662", 
+ "modified_by": "Administrator", 
+ "module": "Rollon ERPNext", 
+ "name": "CR Item Masters", 
+ "owner": "Administrator", 
+ "query": "SELECT\n`tabItem`.name as \"ID:Link/Item:120\",\n`tabItem`.item_name as \"Item Name:Data:230\",\n`tabItem`.rollon_code as \"ROLLON Code:Data:130\",\n`tabItem`.item_group as \"Item Group:Data:130\"\n\nFROM\n`tabItem`\n\nORDER BY `tabItem`.rollon_code ASC, `tabItem`.name ASC", 
+ "ref_doctype": "Item", 
+ "report_name": "CR Item Masters", 
+ "report_type": "Query Report", 
+ "roles": [
+  {
+   "role": "Accounts User"
+  }, 
+  {
+   "role": "Sales User"
+  }, 
+  {
+   "role": "Item Manager"
+  }, 
+  {
+   "role": "Stock User"
+  }, 
+  {
+   "role": "Manufacturing User"
+  }, 
+  {
+   "role": "Stock Manager"
+  }, 
+  {
+   "role": "Purchase User"
+  }, 
+  {
+   "role": "System Manager"
+  }, 
+  {
+   "role": "Director"
+  }
+ ]
+}
