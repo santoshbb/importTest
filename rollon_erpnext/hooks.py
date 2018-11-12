@@ -9,7 +9,7 @@ app_title = "Rollon ERPNext"
 app_publisher = "Biradar Technologies"
 app_description = "ERPNext customisation for Rollon Hydraulics"
 app_icon = "octicon octicon-file-directory"
-app_color = "green"
+app_color = "blue"
 app_email = "santosh.baburao@gmail.com"
 app_license = "BT"
 
@@ -129,7 +129,7 @@ fixtures = ["Custom Field",
             "Role",
             "DocType",
             "Letter Head",
-            "Print Format Builder"
+            "Print Format Builder",
             "Role Permissions Manager"
            ]
 
