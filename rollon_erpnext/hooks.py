@@ -6,12 +6,12 @@ from .hooks_custom_field import custom_field
 
 app_name = "rollon_erpnext"
 app_title = "Rollon ERPNext"
-app_publisher = "MN Technique"
+app_publisher = "Biradar Technologies"
 app_description = "ERPNext customisation for Rollon Hydraulics"
 app_icon = "octicon octicon-file-directory"
-app_color = "red"
+app_color = "green"
 app_email = "santosh.baburao@gmail.com"
-app_license = "MIT"
+app_license = "BT"
 
 # Includes in <head>
 # ------------------
@@ -126,6 +126,10 @@ fixtures = ["Custom Field",
             "Property Setter",
             "Print Format",
             "Report",
-            "Role"
+            "Role",
+            "DocType",
+            "Letter Head",
+            "Print Format Builder"
+            "Role Permissions Manager"
            ]
 
