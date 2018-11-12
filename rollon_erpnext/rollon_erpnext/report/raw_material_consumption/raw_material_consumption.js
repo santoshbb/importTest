@@ -24,6 +24,13 @@ frappe.query_reports["Raw Material Consumption"] = {
         "default":"Inhouse Consumption"
         },
         {
+        "fieldname":"details",
+        "label":("Details"),
+        "fieldtype":"Select",
+        "options":["Less Details","More Details"],
+        "default":"Less Details"
+        },
+        {
         "fieldname":"item_group",
         "label":("Item Group"),
         "fieldtype":"Read Only",
