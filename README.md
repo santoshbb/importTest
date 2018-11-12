@@ -8,9 +8,3 @@ ERPNext customisation for Rollon Hydraulics
 
 MIT
 =======
-# dummy
-dummy
->>>>>>> Initial commit
-=======
-# test
->>>>>>> 740e7bd5fd653d9996a4d940d4152dd223b140ec
